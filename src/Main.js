@@ -24,33 +24,40 @@ class Body extends Component {
             <img className="pizza" src={pizza} alt="pizza"/>
             </section>
             <section className="main-section">
+
 <section className="p-section">
-<p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
-    similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-<p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
-    est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis 
-    voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut 
-    rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. </p>
-<p> Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur
-    aut perferendis doloribus asperiores repellat.
-</p>
+
+    <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+        similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+    </p>
+
+    <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
+        est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis 
+        voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut 
+        rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+    </p>
+
+    <p> Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+        aut perferendis doloribus asperiores repellat.
+    </p>
+    
 </section>
 
 <section className="ingredients">
-<span className="ingredients-list">1 1/2 cups milk </span>
-<span className="ingredients-list">1/2 cup mascarpone</span>
-<span className="ingredients-list">1/2 tsp pink salt</span>
-<span className="ingredients-list">1/2 cup brown sugar</span>
-<span className="ingredients-list">1 lb black mission figs</span>
-<span className="ingredients-list">2-4 Tbsp water</span>
-<span className="ingredients-list2">1 1/2 cups heavy cream</span>
+<span>1 1/2 cups milk </span>
+<span>1/2 cup mascarpone</span>
+<span>1/2 tsp pink salt</span>
+<span>1/2 cup brown sugar</span>
+<span>1 lb black mission figs</span>
+<span>2-4 Tbsp water</span>
+<span>1 1/2 cups heavy cream</span>
+<span id="strike">1/3 cup granulated sugar</span>
+<span>1 lemon, juiced</span>
+<span id="strike2">2 egg yolks</span>
+<span>2 Tbsp butter</span>
+<span>1 cup honey roasted pecans, roughly chopped</span>
 
-<span className="ingredients-list2" id="strike">1/3 cup granulated sugar</span>
-<span className="ingredients-list2">1 lemon, juiced</span>
-<span className="ingredients-list2" id="strike2">2 egg yolks</span>
-<span className="ingredients-list2">2 Tbsp butter</span>
-<span className="ingredients-list2">1 cup honey roasted pecans, roughly chopped</span>
 </section>
 
 </section>
