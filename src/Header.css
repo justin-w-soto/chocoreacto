@@ -1,0 +1,59 @@
+.header{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.title {
+    display: flex;
+}
+
+.logo {
+    margin-right: 10px;
+    width: 60px;
+}
+
+.delicious {
+    font-family: 'Marck Script', cursive;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+.blog {
+    color: gray;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.divider img{
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.iconz .icon-section img{
+    margin-right: 1px;
+    display: inline-block;
+}
+
+.iconz .icon-section2 img {
+    display:inline-block;
+    
+}
+
+.icons-section {
+    float:right;
+    margin-left: 300px;
+}
+
+ .icons-section2 {
+    float:right;
+    margin-left: 10px;
+   
+}
+
+.iconz {
+    display: flex;
+ 
+   
+}

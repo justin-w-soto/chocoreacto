@@ -1,0 +1,134 @@
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+h2 {
+    color: gray;
+    font-size: 15px;
+}
+
+
+p{
+    margin: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.print-section {
+    color:gray;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+    
+}
+
+.print-section img {
+    width:30px;
+    max-height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.print-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.print-txt {
+    display: flex;
+    justify-self: flex-end;
+    
+}
+
+
+.pizza {
+    width:1000px;
+    margin:20px 0px;
+    
+}
+.pizza-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.p-section{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.ingredients {
+    background-image: url('./assets/list-bg.png');
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 36px 0px;
+    font-size: 25px;
+    box-shadow: 0px 4px 4px darkgray;
+
+}
+
+.divider2{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+  }
+  
+  .divider2 img {
+      width: 1000px;
+      justify-content: center;
+      margin: 30px auto;
+  }
+
+  .vanessa{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.vanessa-name  {
+    font-size: 20px;
+    margin-bottom: 10px;
+   
+}
+
+.name {
+   font-size: 25px;
+   font-weight: bolder;
+}
+
+.vanessa-img img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.btn {
+    padding: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    color: white;
+    background: rgb(197, 119, 88);
+    border: none;
+    width: 200px;
+
+
+}
+
+#strike, #strike2 {
+    text-decoration: line-through;
+}
