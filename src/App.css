@@ -3,3 +3,15 @@
 }
 
 
+.Checkyboys {
+  display: flex;
+  font-size: large;
+  width: 300px;
+  text-align: left;
+  
+}
+
+.thingsThatGoInPizza {
+  display: flex;
+  text-align: left;
+}
