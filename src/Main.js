@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
-
 import './Main.css';
-
 import print from './assets/print-icon.png';
 import pizza from './assets/choco-pizza.png';
-import divider from './assets/Capture.PNG';
-import vanessa from './assets/van-pic.png';
-
 class Main extends Component {
    
     render() { 
         return ( 
-
-            <div>
+            
+            <>
                    <h1>Chocolate Pizza</h1>
 
             <h2>POSTED ON 15 DEC 2013 / DESSERTS</h2>
@@ -51,60 +46,14 @@ class Main extends Component {
     </p>
     
 </section>
-
-<section className="ingredients">
-
-    <span>1 1/2 cups milk </span>
-    <span>1/2 cup mascarpone</span>
-    <span>1/2 tsp pink salt</span>
-    <span>1/2 cup brown sugar</span>
-    <span>1 lb black mission figs</span>
-    <span>2-4 Tbsp water</span>
-    <span>1 1/2 cups heavy cream</span>
-    <span id="strike">1/3 cup granulated sugar</span>
-    <span>1 lemon, juiced</span>
-    <span id="strike2">2 egg yolks</span>
-    <span>2 Tbsp butter</span>
-    <span>1 cup honey roasted pecans, roughly chopped</span>
-
-</section>
-
-</section>
-
-<section className="divider2">
-
-    <img src={divider} alt='divider'/>
-
-</section>
+            </section>
 
 
-<section className="vanessa">
 
-<section className="vanessa-img">
-
-    <img src={vanessa} alt='vanessa'/>
-
-</section>
-
-<section className="vanessa-name">
-
-    <span className="name">Vanessa Stevenson</span>
-
-    <span className="bio">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</span>
-
-</section>
-
-
-<section>
-
-<button className="btn">SHARE RECIPE</button>
-
-</section>
-
-</section>
-            </div>
-         );
+            </>
+         ); 
     }
 }
- 
+
+    
 export default Main;

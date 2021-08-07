@@ -24,7 +24,6 @@ class Header extends Component {
                 <img className='logo' src={logo} alt='logo'/>
 
                 <span className="delicious">Delicious</span>
-                <span className="blog">THE BEST FOOD BLOG ON THE WEB</span>
 
 
               <section className="iconz">
@@ -49,6 +48,7 @@ class Header extends Component {
               </section>
 
               <section className="divider">
+                <span className="blog">THE BEST FOOD BLOG ON THE WEB</span>
 
                 <img src={divider} alt="divider"/>
 
